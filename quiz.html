@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="css/nice-select.css">
+	<title>Квиз</title>
+</head>
+
+
+<body>
+
+	<div class="wrapper">
+		<header class="header">
+    <div class="container">
+        <div class="header__inner">
+            <a href="" class="header__logo">
+                <img src="img/logo.webp" alt="">
+            </a>
+            <ul class="header__list">
+                <li><a href="">Главная</a></li>
+                <li><a class="active" href="">Расчеты</a></li>
+            </ul>
+           <div class="header__group">
+               <a href="" class="header__user">
+                <span class="header__user-icon">
+                    <img src="img/user-icon2.svg" alt="">
+                </span>
+                   <span class="header__user-text">Профиль</span>
+                   <span class="header__user-icon2">
+                    <img src="img/user-icon.svg" alt="">
+                </span>
+               </a>
+               <div class="burger">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+               </div>
+           </div>
+        </div>
+    </div>
+</header>
+		<main class="content">
+			<section class="quiz">
+				<div class="quiz__inner">
+					<div class="quiz__slider">
+						<div class="swiper mySwiper">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide quiz-slide">
+									<div class="form-wrap">
+										<div class="form-head">
+											<div class="form-title text48">Оставьте свои контакты</div>
+											<div class="form-text">Для отправки расчета и подробной консультации специалиста</div>
+										</div>
+										<form class="form">
+											<div class="form-group">
+												<input type="text" placeholder="Ваше имя">
+											</div>
+											<div class="form-group">
+												<input type="tel" placeholder="Номер телефона">
+											</div>
+											<div class="form-group">
+												<input type="email" placeholder="Электронная почта">
+											</div>
+											<div class="form-btn m-btn btn-green swiper-button-next">
+												<span>Далее</span>
+											</div>
+											<div class="form-line">
+												<img src="img/form-line.svg" alt="">
+											</div>
+										</form>
+									</div>
+									<div class="quiz-img">
+										<img src="img/quiz-img.webp" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide quiz-slide">
+									<div class="form-wrap">
+										<form class="form">
+											<div class="form-group">
+												<label class="form-subtitle">Укажите объем потребления топлива (литров в месяц)</label>
+												<input type="text" placeholder="Например 10000">
+											</div>
+											<div class="form-group">
+												<label class="form-subtitle">Укажите марку используемого топлива</label>
+												<div class="custom_select">
+													<select>
+														<option value="АИ-92">АИ-92</option>
+														<option value="АИ-92">АИ-92</option>
+														<option value="АИ-92">АИ-92</option>
+														<option value="АИ-92">АИ-92</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-group">
+												<label class="form-subtitle">Укажите ваш регион</label>
+												<div class="custom_select">
+													<select>
+														<option value="Алтайский край">Алтайский край</option>
+														<option value="Алтайский край">Алтайский край</option>
+														<option value="Алтайский край">Алтайский край</option>
+														<option value="Алтайский край">Алтайский край</option>
+													</select>
+												</div>
+											</div>
+											<div class="form-btn m-btn btn-green swiper-button-next">
+												<span>Далее</span>
+											</div>
+											<div class="form-line">
+												<img src="img/form-line.svg" alt="">
+											</div>
+										</form>
+									</div>
+									<div class="quiz-img">
+										<img src="img/quiz-img2.webp" alt="">
+									</div>
+								</div>
+								<div class="swiper-slide quiz-slide">
+									<div class="form-wrap">
+										<form class="form">
+											<label class="form-subtitle form-subtitle2">Какой топливной картой вы пользуетесь?</label>
+											<div class="form-checkboxes form-checkboxes2">
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Нет топливной карты</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Индивидуальные условия</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>E1 CARD</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Петрол Плюс</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Газпром</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Газпромнефть</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Ирбис</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Лукойл</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Роснефть</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Татнефть</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio">
+													<label>Не нашел свою карту в списке</label>
+												</div>
+											</div>
+											<div class="form-btn m-btn btn-green swiper-button-next">
+												<span>Далее</span>
+											</div>
+											<div class="form-line">
+												<img src="img/form-line.svg" alt="">
+											</div>
+										</form>
+									</div>
+									<div class="quiz-img quiz-img2">
+										<img src="img/quiz-img3.webp" alt="">
+										<span class="quiz-line">
+											<img src="img/quiz-line.svg" alt="">
+										</span>
+										<span class="quiz-line2">
+											<img src="img/quiz-line2.svg" alt="">
+										</span>
+									</div>
+								</div>
+								<div class="swiper-slide quiz-slide">
+									<div class="form-wrap">
+										<form class="form">
+											<label class="form-subtitle form-subtitle2">Есть ли прямой договор с компаниями:</label>
+											<div class="form-checkboxes">
+												<div class="form-checkbox">
+													<input type="radio" name="radio2">
+													<label>Газпромнефть</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio2">
+													<label>Лукоил</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio2">
+													<label>Татнефть</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio2">
+													<label>Роснефть</label>
+												</div>
+												<div class="form-checkbox">
+													<input type="radio" name="radio2">
+													<label>Нет</label>
+												</div>
+											</div>
+											<div class="form-btn m-btn btn-green swiper-button-next">
+												<span>Далее</span>
+											</div>
+											<div class="form-line">
+												<img src="img/form-line.svg" alt="">
+											</div>
+										</form>
+									</div>
+									<div class="quiz-img">
+										<img src="img/quiz-img4.webp" alt="">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer"></footer>
+
+	</div>
+
+	<script src="js/libs.min.js"></script>
+<script src="js/main.min.js"></script>
+<script src="js/jquery.nice-select.min.js"></script>
+
+</body>
+
+</html>
