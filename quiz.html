@@ -8,6 +8,7 @@
 	<link rel="stylesheet" href="css/libs.min.css">
 	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="stylesheet" href="css/nice-select.css">
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 	<title>Квиз</title>
 </head>
 
@@ -98,14 +99,21 @@
 											</div>
 											<div class="form-group">
 												<label class="form-subtitle">Укажите ваш регион</label>
-												<div class="custom_select">
-													<select>
-														<option value="Алтайский край">Алтайский край</option>
-														<option value="Алтайский край">Алтайский край</option>
-														<option value="Алтайский край">Алтайский край</option>
-														<option value="Алтайский край">Алтайский край</option>
-													</select>
-												</div>
+												<select class="vacancies-main__select select2" data-placeholder="Алтайский край">
+													<option value=""></option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+													<option value="Алтайский край">Алтайский край</option>
+												</select>
 											</div>
 											<div class="form-btn m-btn btn-green swiper-button-next">
 												<span>Далее</span>
@@ -128,9 +136,27 @@
 													<input type="radio" name="radio">
 													<label>Нет топливной карты</label>
 												</div>
-												<div class="form-checkbox">
+												<div class="form-checkbox2 individual-check">
 													<input type="radio" name="radio">
 													<label>Индивидуальные условия</label>
+												</div>
+												<div class="individual-check__wrap">
+													<div class="individual-check__group">
+														<div class="custom_select">
+															<select>
+																<option value="АИ-92">АИ-92</option>
+																<option value="АИ-92">АИ-92</option>
+																<option value="АИ-92">АИ-92</option>
+																<option value="АИ-92">АИ-92</option>
+															</select>
+														</div>
+														<div class="form-group">
+															<input type="text" placeholder="Процент скидки">
+															<div class="individual-btns">
+																<div class="add">+</div>
+															</div>
+														</div>
+													</div>
 												</div>
 												<div class="form-checkbox">
 													<input type="radio" name="radio">
@@ -164,9 +190,12 @@
 													<input type="radio" name="radio">
 													<label>Татнефть</label>
 												</div>
-												<div class="form-checkbox">
+												<div class="form-checkbox2 individual-check2">
 													<input type="radio" name="radio">
 													<label>Не нашел свою карту в списке</label>
+												</div>
+												<div class="form-group individual-check__content2">
+													<input type="text" placeholder="Введите название карты">
 												</div>
 											</div>
 											<div class="form-btn m-btn btn-green swiper-button-next">
@@ -193,23 +222,23 @@
 											<label class="form-subtitle form-subtitle2">Есть ли прямой договор с компаниями:</label>
 											<div class="form-checkboxes">
 												<div class="form-checkbox">
-													<input type="radio" name="radio2">
+													<input type="checkbox" name="radio2">
 													<label>Газпромнефть</label>
 												</div>
 												<div class="form-checkbox">
-													<input type="radio" name="radio2">
+													<input type="checkbox" name="radio2">
 													<label>Лукоил</label>
 												</div>
 												<div class="form-checkbox">
-													<input type="radio" name="radio2">
+													<input type="checkbox" name="radio2">
 													<label>Татнефть</label>
 												</div>
 												<div class="form-checkbox">
-													<input type="radio" name="radio2">
+													<input type="checkbox" name="radio2">
 													<label>Роснефть</label>
 												</div>
-												<div class="form-checkbox">
-													<input type="radio" name="radio2">
+												<div class="form-checkbox form-checkbox--radio">
+													<input type="checkbox" name="radio2">
 													<label>Нет</label>
 												</div>
 											</div>
@@ -238,7 +267,7 @@
 	<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
 <script src="js/jquery.nice-select.min.js"></script>
-
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
 </body>
 
 </html>
